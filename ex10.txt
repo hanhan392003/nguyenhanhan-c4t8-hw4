@@ -1,0 +1,3 @@
+Nếu lấy một số có 5 chữ số (abcde) và dùng phép chia lấy phần nguyên số này cho 10 thì sẽ được kết quả là abcd
+Ví dụ : +) 124 // 10 = 12
+        +) 12345 // 10 = 1234
