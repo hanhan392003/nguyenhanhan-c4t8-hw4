@@ -15,15 +15,17 @@ print(my_date)
 my_hour = datetime.time(hour=hour, minute=minute, second=second, microsecond = microsecond)
 print(my_hour)
 my_time = datetime.datetime.combine(my_date, my_hour)
-print(type(my_time))
 
-present_time = datetime.datetime.now()
-print(type(present_time))
-present_day = present_time.date()
-# print(present_day)
-present_hour = present_time.time()
-# print(present_hour)
+
+
+
+
 while True:
+    present_time = datetime.datetime.now()
+    present_day = present_time.date()
+# print(present_day)
+    present_hour = present_time.time()
+# print(present_hour)
     if my_date == present_day and my_hour.hour == present_hour.hour and my_hour.minute == present_hour.minute:
         
         print("alarm")
