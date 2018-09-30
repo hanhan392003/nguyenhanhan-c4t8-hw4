@@ -24,11 +24,11 @@ present_day = present_time.date()
 present_hour = present_time.time()
 # print(present_hour)
 while True:
-    if present_time == my_time:
+    if my_date == present_day and my_hour.hour == present_hour.hour and my_hour.minute == present_hour.minute:
         
         print("alarm")
-    # music = pyglet.resource.media('26YARSREV1.wav')
+        music = pyglet.resource.media('26YARSREV1.wav')
 
-    # music.play()
-        # pyglet.app.run()
+        music.play()
         break
+pyglet.app.run()
